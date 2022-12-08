@@ -173,10 +173,6 @@ EOF
 	systemctl stop nginx
 	sleep 5
 	#申请https证书
-	
-	export CF_Email="xlpasstest@gmail.com"
-	export CF_Key="fe5a20350845ed50c4e25c7dc0e2f23be5aa6"
-	
 	mkdir /usr/src/trojan-cert /usr/src/trojan-temp
 	curl https://get.acme.sh | sh
     ~/.acme.sh/acme.sh --set-default-ca --server letsencrypt
