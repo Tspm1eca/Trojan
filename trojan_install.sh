@@ -450,7 +450,7 @@ function bbr_boost_sh(){
 start_menu(){
     clear
     green " ===================================="
-    green " Trojan 一键安装自动脚本 2022-12-02 更新      "
+    green " Trojan 一键安装自动脚本 2022-12-02 更新 T1me DNS Cert Version      "
     green " 系统：centos7+/debian9+/ubuntu16.04+"
     green " 网站：www.itblogcn.com （已开启禁止国内访问）"
     green " 此脚本为 atrandys 的，集成BBRPLUS加速及MAC客户端 "
