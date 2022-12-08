@@ -365,7 +365,6 @@ EOF
 	green "2、Windows将下载的客户端解压，打开文件夹，打开start.bat即打开并运行Trojan客户端"
 	green "3、MacOS将下载的客户端解压，打开文件夹，打开start.command即打开并运行Trojan客户端"
 	green "Trojan推荐使用 Mellow 工具代理（WIN/MAC通用）下载地址如下："
-	green "https://github.com/mellow-io/mellow/releases  (exe为Win客户端,dmg为Mac客户端)"
     green "   "
     green "速度慢?怕被墙?..推荐使用JMS CN2 GIA高速线路: https://www.itblogcn.com/article/1012.html"
     green "   "
