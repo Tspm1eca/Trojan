@@ -155,7 +155,9 @@ EOF
 	#申请https证书
 	mkdir /usr/src/trojan-cert
 	curl https://get.acme.sh | sh
-	~/.acme.sh/acme.sh  --issue  -d $your_domain  --webroot /usr/share/nginx/html/
+	export CF_Key="fe5a20350845ed50c4e25c7dc0e2f23be5aa6"
+	export CF_Email="xlpasstest@gmail.com"
+	~/.acme.sh/acme.sh  --issue --dns dns_cf -d $your_domain  --webroot /usr/share/nginx/html/
     	~/.acme.sh/acme.sh  --installcert  -d  $your_domain   \
         --key-file   /usr/src/trojan-cert/private.key \
         --fullchain-file /usr/src/trojan-cert/fullchain.cer \
